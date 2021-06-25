@@ -1,0 +1,23 @@
+sup{
+    font-size: 11px;
+}
+
+h1{
+    font-size: 40px;
+    color: #111197;
+    margin-bottom: 20px;
+}
+
+
+.respuestas{
+    margin-bottom: 30px;
+}
+
+.respuestas label{
+    margin: 0px 10px 0px 10px;
+}
+
+.cuestion{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
