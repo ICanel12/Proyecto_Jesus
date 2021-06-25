@@ -13,86 +13,85 @@ const preguntas = [
     respuestaCorrecta: "a",
   },
   {
-    pregunta: "2. 5a<sup>2</sup>-15ab-10ac",
+    pregunta: "2. 5m<sup>2</sup>+15m<sup>8</sup>",
     respuestas: {
-      a: "5",
-      b: "Dubai",
-      c: "Bagdad",
+      a: "Ninguna respuesta es correcta",
+      b: "5m<sup>2</sup>(1-3m<sup>6</sup>)",
+      c: "5m<sup>2</sup>(1+3m<sup>6</sup>)",
     },
     respuestaCorrecta: "c",
   },
   {
-    pregunta: "3. Cuál es la capital de Noruega?",
+    pregunta: "3. x<sup>2</sup>y+x<sup>2</sup>z",
     respuestas: {
-      a: "Roma",
-      b: "Copenague",
-      c: "Estocolmo",
-      d: "Oslo",
-    },
-    respuestaCorrecta: "d",
-  },
-  {
-    pregunta: "4. Cuál es la capital de Serbia?",
-    respuestas: {
-      a: "Belgrado",
-      b: "Zagreb",
-      c: "Kabul",
+      a: "x<sup>2</sup>(y+z)",
+      b: "x<sup>2</sup>(y-z)",
+      c: "x(xy+xz)",
     },
     respuestaCorrecta: "a",
   },
   {
-    pregunta: "5. Cuál es la capital de Australia?",
+    pregunta: "4. 8m<sup>2</sup>-12mn",
     respuestas: {
-      a: "Sidney",
-      b: "Zurich",
-      c: "Canberra",
+      a: "4m(2m-3)",
+      b: "m(8m-12)",
+      c: "Ninguna es correcta",
     },
     respuestaCorrecta: "c",
   },
   {
-    pregunta: "6. Cuál es la capital de Canadá?",
+    pregunta: "5. 15c<sup>2</sup>d<sup>2</sup>+60c<sup>2</sup>d",
     respuestas: {
-      a: "Toronto",
-      b: "Montreal",
-      c: "Ontario",
-    },
-    respuestaCorrecta: "c",
-  },
-  {
-    pregunta: "7. Cuál es la capital de Vietnam?",
-    respuestas: {
-      a: "Puket",
-      b: "Ho Chin Ming",
-      c: "Pan Lao Kung",
+      a: "15c<sup>2</sup>d(d-4)",
+      b: "15c<sup>2</sup>d(d+4)",
+      c: "1c<sup>2</sup>d(d+4)",
     },
     respuestaCorrecta: "b",
   },
   {
-    pregunta: "8. Cuál es la capital de China?",
+    pregunta: "6. abc+abc<sup>2</sup>",
     respuestas: {
-      a: "Shangai",
-      b: "Pekín",
-      c: "Seul",
-    },
-    respuestaCorrecta: "b",
-  },
-  {
-    pregunta: "9. Cuál es la capital de Pakistan?",
-    respuestas: {
-      a: "Islamabad",
-      b: "Kuwait",
-      c: "Kabul",
+      a: "Ninguna es correcta",
+      b: "abc(abc)",
+      c: "abc(1+abc)",
     },
     respuestaCorrecta: "a",
   },
   {
-    pregunta: "10. Cuál es la capital de Marruecos?",
+    pregunta: "7. 18ax<sup>2</sup>+27a<sup>2</sup>y-81ay<sup>2</sup>",
     respuestas: {
-      a: "Casablanca",
-      b: "Rabat",
-      c: "Kabul",
+      a: "9a(2x<sup>2</sup>+3ay+9y<sup>2</sup>)",
+      b: "9a(2x<sup>2</sup>-3ay-9y<sup>2</sup>)",
+      c: "9a(2x<sup>2</sup>+3ay-9y<sup>2</sup>)",
     },
-    respuestaCorrecta: "b",
+    respuestaCorrecta: "c",
+  },
+  {
+    pregunta: "8. 30a<sup>3</sup>x<sup>2</sup>y-60a<sup>2</sup>x<sup>3</sup>y<sup>2</sup>-90a<sup>2</sup>xy",
+    respuestas: {
+      a: "30a<sup>2</sup>xy(ax-2x<sup>2</sup>y-3)",
+      b: "Ninguna es correcta",
+      c: "30a<sup>2</sup>xy(ax+2x<sup>2</sup>y-3)",
+    },
+    respuestaCorrecta: "a",
+  },
+  {
+    pregunta: "9. m(a-b)+(a-b)n",
+    respuestas: {
+      a: "(a-b)(m+n)",
+      b: "(a+b)(m+n)",
+      c: "(a-b)(m-n)",
+    },
+    respuestaCorrecta: "a",
+  },
+  {
+    pregunta: "10. b(a+c)-(a+c)l",
+    respuestas: {
+      a: "(a-c)(a+l)",
+      b: "(a+c)(a+l)",
+      c: "Ninguna es correcta",
+    },
+    respuestaCorrecta: "c",
   },
 ];
 
