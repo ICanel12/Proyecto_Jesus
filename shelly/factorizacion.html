@@ -53,8 +53,8 @@
               <li><a class="active" href="index.html" title="">Inicio</a></li>
               <li><a href="about.html" title="">Acerca de</a></li>
               <li><a class="active" href="classes.html" title="">Clases</a></li>
-              <li><a href="teachers.html" title="">Maestros</a></li>    
-             
+              <li><a href="teachers.html" title="">Maestros</a></li>
+
             </ul>
           </nav>
           <!--nav end-->
@@ -110,29 +110,103 @@
 
                   <div class="blog-info">
                     <h3 class="stick">¿Qué es factorización?</h3>
-                    <p>La factorización es una expresión algebraica que mediante factores o divisores permiten simplificar en términos más simples para su manipulación.</p>
-                    <br>
+                    <p>La factorización es una expresión algebraica que mediante factores o divisores permiten
+                      simplificar en términos más simples para su manipulación.</p>
+                    <br><br><br>
                     <h3 class="stick">1. Factor Común</h3>
-                    <p>Se dice que un polinomio tiene factor común cuando una misma cantidad, ya sea número o letra, se encuentra en todos los términos del polinomio.</p>
-
-
-             
-                   
+                    <br>
+                    <p>Un factor común monomio, es el factor que está presente en cada término del polinomio.</p>
+                    <p>En el caso de los coeficientes numéricos el factor común es el mayor divisor posible entre ellos
+                      y el factor común literal está conformado por el o los elementos de la parte literal presentes en
+                      todos los términos con el menor exponente.</p>
+                    <p>Para factorizar el polinomio, se escribe el factor común monomio multiplicado por el polinomio
+                      resultante de dividir cada término del polinomio original entre el factor común monomio.</p>
+                    
+                    <strong><h3>Ejemplo</h3></strong>
+                    <p>5a<sup>2</sup>-15ab-10ac</p>
+                    <p>El factor común entre los coeficientes es 5 (mayor divisor de 5, 10 y 15), y entre los factores literales es a (factor literal que se repite en todos los términos con el menor exponente), por lo tanto:</p>
+                    <p>5a<sup>2</sup>-15ab-10ac = 5a(a)-5a(3b)-5a(2c) = 5a(a-3b-2c)</p>
                   </div>
-                  
-                  <div class="blog-post quote-post"> 
-                  <div>
-                    <h1>Evaluación</h1>
-                    <div id="test"></div>
-                    <button id="boton" class="btn btn-success">Mostrar resultado</button>
-                    <div id="resultado"></div>
-                    <script src="./assets/js/formulario.js"></script>
+
+       
+                  <br><br><br>
+                  <div class="blog-info">
+                    <h3 class="stick">2. Diferencia de Cuadrados</h3>
+                    <br>
+                    <p>Si se tienen dos términos y ambos tienen raíz cuadrada exacta y se están restando</p>
+                    <p>Para factorizarlos, se saca la raíz cuadrada de cada término, se abren dos paréntesis y en uno de ellos se colocan las dos raíces, en un paréntesis sumándose y en el otro restandose.</p>
+                    
+                    <strong><h3>Ejemplo</h3></strong>
+                    <p>x<sup>2</sup>-9 = (x+3)(x-3)</p>
+                    <p>La raíz cuadrado de x<sup>2</sup> es x y la raíz de 9 es 3</p>
                   </div>
-                </div>
-  
-                   
+
+
+                  <br><br><br>
+                  <div class="blog-info">
+                    <h3 class="stick">3. Suma y diferencia de Cubos</h3>
+                    <br>
+                    <p>Se deben observar los dos términos, los cuales deben tener raíz cúbica exacta</p>
+                    <p>x<sup>3</sup>+y<sup>3</sup></p>
+                    <p>1. Se saca la raíz cúbica de los dos términos y estas raíces se colocan dentro de un paréntesis con el mismo signo que tiene en medio de los dos términos</p>
+                    <p>x<sup>3</sup>+y<sup>3</sup> = (x+y)</p>
+                    <p>2. Se abre otro paréntesis y dentro de el, tomando en cuanta el paréntesis donde están las raíces del binomio:</p>
+                    <p>2.1 Se eleva al cuadrado el primer término</p>
+                    <p>x<sup>3</sup>+y<sup>3</sup> = (x+y)(x<sup>2</sup></p>
+                    <p>2.2 Se escribe el signo cambiado</p>
+                    <p>x<sup>3</sup>+y<sup>3</sup> = (x+y)(x<sup>2</sup>-</p>
+                    <p>2.3 Se multiplican los dos términos</p>
+                    <p>x<sup>3</sup>+y<sup>3</sup> = (x+y)(x<sup>2</sup>-xy</p>
+                    <p>2.4 Se escribe el signo más</p>
+                    <p>x<sup>3</sup>+y<sup>3</sup> = (x+y)(x<sup>2</sup>-xy+</p>
+                    <p>2.5 Se eleva al cuadrado el segundo término</p>
+                    <p>x<sup>3</sup>+y<sup>3</sup> = (x+y)(x<sup>2</sup>-xy+y<sup>2</sup>)</p>
+
+                  </div>
+
+
+                  <br><br><br>
+                  <div class="blog-info">
+                    <h3 class="stick">4. Trinomio cuadrado perfecto</h3>
+                    <br>
+                    <p>Observamos los extremos del mismo y vemos si tienen raíz cuadrada exacta. Observamos el término del medio y si es el doble producto de las 
+                      dos raíces cuadradas de los extremos, sí es un trinomio cuadrado perfecto y para factorizarlo basta con escribir dentro de un paréntesis las dos
+                      raíces y este paréntesis se eleva al cuadrado. 
+                    </p>
+
+                    <strong><h3>Ejemplo</h3></strong>
+                    <p>x<sup>2</sup>+2x+1</p>
+                    <p>Los extremos que son x y 1 sí tienen raíz cuadrada exacta</p>
+                    <p>x<sup>2</sup>+2x+1 = x  1</p>
+                    <p>Luego de multiplicar x*1=xy el doble de x es 2x, entonces vemos que sí es un trinomio cuadrado perfecto y escribimos las dos raíces cuadradas en un 
+                      paréntesis, escribiendo el mismo signo que tiene el segundo término y el paréntesis se eleva al cuadrado.
+                    </p>
+                    <p>x<sup>2</sup>+2x+1 = (x+1)<sup>2</sup></p>
+                  </div>
+
+
+
+                  <br><br><br>
+                  <div class="blog-post quote-post">
+                    <div>
+                      <h1>Evaluación</h1>
+                      <div id="test"></div>
+                      <button id="boton" class="btn btn-success">Mostrar resultado</button>
+                      <div id="resultado"></div>
+                      <script src="./assets/js/formulario.js"></script>
+                    </div>
+                  </div>
+
                   
-     
+
+
+
+
+                  
+
+
+
+
 
 
 
@@ -142,14 +216,14 @@
 
                 </div>
 
-  
-    
-              
-              
-              
-            
-                
-            
+
+
+
+
+
+
+
+
               </div>
               <!--blog-posts end-->
             </div>
@@ -219,37 +293,37 @@
         <!--newsletter-sec end-->
       </div>
     </section>
-   <!--newsletter-sec end-->
-   <footer>
-    <div class="container">
-     
-      <!--top-footer end-->
-      <div class="bottom-footer">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <p>© Copyrights 2021 Shelly Todos los derechos reservados</p>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <ul class="social-links">
-              <li><a href="#" title=""><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#" title=""><i class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="#" title=""><i class="fab fa-instagram"></i></a></li>
-            </ul>
+    <!--newsletter-sec end-->
+    <footer>
+      <div class="container">
+
+        <!--top-footer end-->
+        <div class="bottom-footer">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <p>© Copyrights 2021 Shelly Todos los derechos reservados</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <ul class="social-links">
+                <li><a href="#" title=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" title=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" title=""><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
           </div>
         </div>
+        <!--bottom-footer end-->
       </div>
-      <!--bottom-footer end-->
-    </div>
-  </footer>
-  <!--footer end-->
-</div>
-<script src="assets/js/bundle.min.js"></script>
-<script src="assets/js/button.min.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180910402-1"></script>
-<script>window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'UA-180910402-1');</script>
+    </footer>
+    <!--footer end-->
+  </div>
+  <script src="assets/js/bundle.min.js"></script>
+  <script src="assets/js/button.min.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180910402-1"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-180910402-1');</script>
 </body>
 
 </html>
