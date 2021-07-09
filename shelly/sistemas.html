@@ -3,17 +3,19 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Shelly School HTML Template</title>
+  <title>Sistemas de Ecuaciones</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Shelly - Website">
   <meta name="author" content="merkulove">
   <meta name="keywords" content="">
   <link rel="icon" href="assets/img/favicon.png">
   <link rel="stylesheet" type="text/css" href="assets/css/main.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/form.css">
   <link rel="stylesheet" type="text/css" href="assets/css/button.min.css">
 </head>
 
 <body>
+
   <div class="wrapper">
     <header>
       <div class="container">
@@ -51,8 +53,8 @@
               <li><a class="active" href="index.html" title="">Inicio</a></li>
               <li><a href="about.html" title="">Acerca de</a></li>
               <li><a class="active" href="classes.html" title="">Clases</a></li>
-              <li><a href="teachers.html" title="">Maestros</a></li>    
-             
+              <li><a href="teachers.html" title="">Maestros</a></li>
+
             </ul>
           </nav>
           <!--nav end-->
@@ -87,7 +89,7 @@
     <section class="pager-section">
       <div class="container">
         <div class="pager-content text-center">
-          <h2>CLASES</h2>
+          <h2 class="title">SISTEMAS DE ECUACIONES</h2>
           <ul>
             <li><a href="#" title="">Inicio</a></li>
             <li><span>Clases</span></li>
@@ -98,79 +100,164 @@
       </div>
     </section>
     <!--pager-section end-->
-    <section class="classes-page">
+    <section class="page-content">
       <div class="container">
-        <div class="classes-banner"><span>Probar</span>
-          <h2>¡Empieza a invertir en tu conocimiento!</h2>
-        </div>
-        <!--classes-banner end-->
-        <div class="classes-section">
-          <div class="classes-sec">
-            <div class="row">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="blog-section p-0 posts-page">
+              <div class="blog-posts">
+                <div class="blog-post">
 
-
-
-
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="classes-col">
-                  <div class="class-thumb"><img src="assets/img/polinomios.jpg" alt="" class="w-100"></div>
-                  <div class="class-info">
-                    <h3><a href="class-single.html" title="">Polinomios</a></h3>
-                    <span>Aprende a sumar, restar, multiplicar y dividir polinomios</span> 
-                    <button type="button" class="btn btn-primary">Ver clase</button>
+                  <div class="blog-info">
+                    <h3 class="stick">¿Qué es un sistema de ecuaciones?</h3>
+                    <p>Un sistema de ecuaciones es un conjunto de dos o más ecuaciones con multiples incógnitas 
+                    sobre las cuales se quiere encontrar un solución común.</p>
+                    <p>
+                        Una solución es todo par de números que cumple la ecuación.
+                    </p>
+                    <p style="text-align: justify;">&nbsp;Existen diferentes métodos de resolución:</p>
+                    <ul>
+                        <li>•
+                            &nbsp;Sustitución.</li>
+                        <li>•
+                            &nbsp;Reducción.</li>
+                        <li>•
+                            &nbsp;Igualación.</li>
+                    </ul>
+                    <br><br><br>
+                    <h3 class="stick">1. Sustitución</h3>
+                    <br>
+                    <p>El metodo de sutitución consiste en despejar una de las incognitas en una de las ecuaciones
+                        y sustituirlo en la otra ecuacion.
+                    </p>
+                    <strong><h3>Ejemplo</h3></strong>
+                    <p>Tenemos el siguiente sistema de ecuaciones:</p>
+                    <p>x - y = 2</p>
+                    <p>x + y = 0</p>
+                    <br>   
+                    <p>Despejamos la primera ecuacion:</p>
+                    <p>x = 2 + y</p>
+                    <p>Luego sustituimos x en la segunda ecuacion:</p>
+                    <p>(2 + y) + y = 0</p>
+                    <p>Operamos</p>
+                    <p>2 + 2y = 0</p>
+                    <p>Resolvemos para "y"</p>
+                    <p>2y = -2</p>
+                    <p>y = -2/2</p>
+                    <p>y = -1</p>
+                    <p>Ahora que tenemos "y", podemos resolver para "x",
+                        sustituimos el valor de "y" en el primer depeje que hicimos para "x".
+                    </p>
+                    <p>x = 2 + (-1)</p>
+                    <p>Operamos</p>
+                    <p>x = 1</p>
+                    <p>Entonces llegamos al resultado de que</p>
+                    <p>x = 1</p>
+                    <p>y = -1</p>
                   </div>
-                </div>
-                <!--classes-col end-->
-              </div>
 
-
-
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="classes-col">
-                  <div class="class-thumb"><img src="assets/img/factorizacion.jpg" alt="" class="w-100"></div>
-                  <div class="class-info">
-                    <h3><a href="class-single.html" title="">Factorización</a></h3>
-                    <span>Aprende a descomponer factores de una expresión algebraica</span> 
-                    <button type="button" class="btn btn-primary"><a href="factorizacion.html">Ver clase</a></button>
+       
+                  <br><br><br>
+                  <div class="blog-info">
+                    <h3 class="stick">2. Reducción</h3>
+                    <br>
+                    <p>Consiste en sumar o restar nuestras ecuaciones de tal manera que una de las incognitas desaparezca</p>
+                    
+                    <strong><h3>Ejemplo</h3></strong>
+                    <p>Tenemos el siguiente sistema de ecuaciones:</p>
+                    <p>x - y = 2</p>
+                    <p>x + y = 0</p>
+                    <br>   
+                    <p>Sumamos las dos ecuaciones:</p>
+                    <p>(x + y) + (x - y) = 0 + 2</p>
+                    <p>Operamos</p>
+                    <p>2x = 2</p>
+                    <p>Ahora que ya solo hay una incognita resolvemos para la misma</p>
+                    <p>x = 2/2</p>
+                    <p>x = 1</p>
+                    <p>Para terminar sustituimos el valor que hemos calculado en la ecuacion
+                        despejada para la otra incognita.</p>
+                    <p>y = -x</p>
+                    <p>y = -(1)</p>
+                    <p>y = -1</p>
+                    <p>Entonces llegamos al resultado de que</p>
+                    <p>x = 1</p>
+                    <p>y = -1</p>
                   </div>
-                </div>
-                <!--classes-col end-->
-              </div>
 
 
-
-              <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="classes-col">
-                  <div class="class-thumb"><img src="assets/img/sistemasEcuaciones.PNG" alt="" class="w-100"></div>
-                  <div class="class-info">
-                    <h3><a href="class-single.html" title="">Sistemas de Ecuaciones</a></h3>
-                    <span>Aprende a resolver sistemas de ecuaciónes</span> 
-                    <button type="button" class="btn btn-primary"><a href="sistemas.html">Ver clase</a></button>
+                  <br><br><br>
+                  <div class="blog-info">
+                    <h3 class="stick">3. Igualación</h3>
+                    <br>
+                    <p>Este metodo consiste en despejar la misma incognita en ambas ecuaciones y 
+                        posteriormente igualar ambos despejes.</p>
+                     
+                    <strong><h3>Ejemplo</h3></strong>
+                    <p>Tenemos el siguiente sistema de ecuaciones:</p>
+                    <p>x - y = 2</p>
+                    <p>x + y = 0</p>
+                    <br>   
+                    <p>Despejamos la primera ecuacion para x</p>
+                    <p>x = 2 + y</p>
+                    <p>Despejamos la segunda ecuacion para x</p>
+                    <p>x = -y</p>
+                    <p>Igualamos las dos ecuaciones</p>
+                    <p>2 + y = -y</p>
+                    <p>Resolvemos para y</p>
+                    <p>y + y = -2</p>
+                    <p>2y = -2</p>
+                    <p>y = -1</p><p></p>
+                    <p>Ahora que tenemos y, lo sustituimos en cualquiera de los despejes que 
+                        hicimos para x
+                    </p>
+                    <p>x = -(-1)</p>
+                    <p>x = 1</p>
+                    <p>Entonces llegamos al resultado de que</p>
+                    <p>x = 1</p>
+                    <p>y = -1</p>
+                    
                   </div>
-                </div>
-                <!--classes-col end-->
-              </div>
 
+                  <br><br><br>
+                  <div class="blog-post quote-post">
+                    <div>
+                      <h1>Evaluación</h1>
+                      <div id="test"></div>
+                      <button id="boton" class="btn btn-success">Mostrar resultado</button>
+                      <div id="resultado"></div>
+                      <script src="./assets/js/formularioSistemas.js"></script>
+                    </div>
+                  </div>
+
+
+                </div>
+
+
+
+              </div>
+              <!--blog-posts end-->
             </div>
+            <!--blog-section end-->
+            <div class="mdp-pagiation">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">...</a></li>
+                  <li class="page-item"><a class="page-link" href="#">15</a></li>
+                </ul>
+              </nav>
+            </div>
+            <!--pagination-end-->
           </div>
-          <!--classes-sec end-->
-          <div class="mdp-pagiation">
-            <nav aria-label="Page navigation example">
-              <ul class="pagination">
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link active" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                <li class="page-item"><a class="page-link" href="#">...</a></li>
-                <li class="page-item"><a class="page-link" href="#">15</a></li>
-              </ul>
-            </nav>
-          </div>
-          <!--pagination-end-->
+
         </div>
       </div>
     </section>
-    <!--classes-page end-->
+    <!--page-content end-->
     <section class="newsletter-section">
       <div class="container">
         <div class="newsletter-sec">
@@ -197,7 +284,7 @@
                     <div class="form-group select-tg"><select>
                         <option>Polinomios</option>
                         <option>Factorización</option>
-                        <option>Class</option>
+                        <option>Sistemas de Ecuaciones</option>
                         <option>Class</option>
                         <option>Class</option>
                         <option>Class</option>
@@ -220,7 +307,7 @@
     <!--newsletter-sec end-->
     <footer>
       <div class="container">
-       
+
         <!--top-footer end-->
         <div class="bottom-footer">
           <div class="row align-items-center">
