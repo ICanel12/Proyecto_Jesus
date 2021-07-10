@@ -4,185 +4,85 @@ const resultadoTest = document.getElementById("resultado");
 
 const preguntas = [
   {
-    pregunta: "1. 3a<sup>3</sup>-a<sup>2</sup>",
+    pregunta: "1. Resuelve por igualación:<p>5x - 2y = 2</p><p>x + 2y = 2</p>",
     respuestas: {
-      a: "a<sup>2</sup>(3a+1)",
-      b: "a<sup>2</sup>(3a-1)",
-      c: "a(3a<sup>2</sup>-a)",
-    },
-    respuestaCorrecta: "a",
-  },
-  {
-    pregunta: "2. 5m<sup>2</sup>+15m<sup>8</sup>",
-    respuestas: {
-      a: "Ninguna respuesta es correcta",
-      b: "5m<sup>2</sup>(1-3m<sup>6</sup>)",
-      c: "5m<sup>2</sup>(1+3m<sup>6</sup>)",
-    },
-    respuestaCorrecta: "c",
-  },
-  {
-    pregunta: "3. x<sup>2</sup>y+x<sup>2</sup>z",
-    respuestas: {
-      a: "x<sup>2</sup>(y+z)",
-      b: "x<sup>2</sup>(y-z)",
-      c: "x(xy+xz)",
-    },
-    respuestaCorrecta: "a",
-  },
-  {
-    pregunta: "4. 8m<sup>2</sup>-12mn",
-    respuestas: {
-      a: "4m(2m-3)",
-      b: "m(8m-12)",
-      c: "Ninguna es correcta",
-    },
-    respuestaCorrecta: "c",
-  },
-  {
-    pregunta: "5. 15c<sup>2</sup>d<sup>2</sup>+60c<sup>2</sup>d",
-    respuestas: {
-      a: "15c<sup>2</sup>d(d-4)",
-      b: "15c<sup>2</sup>d(d+4)",
-      c: "1c<sup>2</sup>d(d+4)",
+      a: "<p>x = 3/2</p><p>y = 2/3</p>",
+      b: "<p>x = 2/3</p><p>y = 2/3</p>",
+      c: "<p>x = 3</p><p>y = 3</p>",
     },
     respuestaCorrecta: "b",
   },
   {
-    pregunta: "6. abc+abc<sup>2</sup>",
+    pregunta: "2. Resuelve por igualación:<p>2x + 3y = 2</p><p>-6x + 12y = 1</p>",
     respuestas: {
-      a: "Ninguna es correcta",
-      b: "abc(abc)",
-      c: "abc(1+abc)",
-    },
-    respuestaCorrecta: "a",
-  },
-  {
-    pregunta: "7. 18ax<sup>2</sup>+27a<sup>2</sup>y-81ay<sup>2</sup>",
-    respuestas: {
-      a: "9a(2x<sup>2</sup>+3ay+9y<sup>2</sup>)",
-      b: "9a(2x<sup>2</sup>-3ay-9y<sup>2</sup>)",
-      c: "9a(2x<sup>2</sup>+3ay-9y<sup>2</sup>)",
+      a: "<p>x = 3</p><p>y = 2</p>",
+      b: "<p>x = 1</p><p>y = 3</p>",
+      c: "<p>x = 1/3</p><p>y = 1/2</p>",
     },
     respuestaCorrecta: "c",
   },
   {
-    pregunta: "8. 30a<sup>3</sup>x<sup>2</sup>y-60a<sup>2</sup>x<sup>3</sup>y<sup>2</sup>-90a<sup>2</sup>xy",
+    pregunta: "3. Resuelve por igualación:<p>5x + 2y = 11</p><p>2x -3y = 12</p>",
     respuestas: {
-      a: "30a<sup>2</sup>xy(ax-2x<sup>2</sup>y-3)",
-      b: "Ninguna es correcta",
-      c: "30a<sup>2</sup>xy(ax+2x<sup>2</sup>y-3)",
+      a: "<p>x = 3</p><p>y = -2</p>",
+      b: "<p>x = -3</p><p>y = 2</p>",
+      c: "<p>x = 3</p><p>y = 1</p>",
     },
     respuestaCorrecta: "a",
   },
   {
-    pregunta: "9. m(a-b)+(a-b)n",
+    pregunta: "4. Resuelve por reducción:<p>5x - y = 3</p><p>-2x + 4y = 12</p>",
     respuestas: {
-      a: "(a-b) (m+n)",
-      b: "(a+b) (m+n)",
-      c: "(a-b) (m-n)",
+      a: "<p>x = 0</p><p>y = -3</p>",
+      b: "<p>x = 1</p><p>y = -3/2</p>",
+      c: "<p>x = 0</p><p>y = 0</p>",
     },
     respuestaCorrecta: "a",
   },
   {
-    pregunta: "10. b(a+c)-(a+c)l",
+    pregunta: "5. Resuelve por reducción:<p>2x + y = 6</p><p>4x + 3y = 14</p>",
     respuestas: {
-      a: "(a-c) (a+l)",
-      b: "(a+c) (a+l)",
-      c: "Ninguna es correcta",
+      a: "<p>x = 2</p><p>y = 2</p>",
+      b: "<p>x = -2</p><p>y = -2</p>",
+      c: "<p>x = 1</p><p>y = 3</p>",
     },
-    respuestaCorrecta: "c",
+    respuestaCorrecta: "a",
   },
-
   {
-    pregunta: "11. x<sup>2</sup>-y<sup>2</sup>",
+    pregunta: "6. Resuelve por reducción:<p>-2x + 4y = 6</p><p>3x - 5y = 2</p>",
     respuestas: {
-      a: "(x+y) (x+y)",
-      b: "(x+y) (x-y)",
-      c: "(x-y) (x-y)",
+      a: "<p>x = 19</p><p>y = -11</p>",
+      b: "<p>x = 19</p><p>y = 11</p>",
+      c: "<p>x = 10</p><p>y = 11</p>",
     },
     respuestaCorrecta: "b",
   },
   {
-    pregunta: "12. x<sup>6</sup>-4",
+    pregunta: "7. Resuelve por sustitución:<p>3x + 5y = 15</p><p>2x - 3y = -9</p>",
     respuestas: {
-      a: "(x<sup>3</sup>+2) (x<sup>3</sup>-2)",
-      b: "(x<sup>3</sup>+2) (x<sup>3</sup>+2)",
-      c: "Ninguna es correcta",
+      a: "<p>x = 0</p><p>y = 3</p>",
+      b: "<p>x = 1/2</p><p>y = 3</p>",
+      c: "<p>x = 2</p><p>y = 5</p>",
     },
     respuestaCorrecta: "a",
   },
   {
-    pregunta: "13. b<sup>2</sup>-1",
+    pregunta: "8. Resuelve por sustitución:<p>2x  + 3y = 1</p><p>3x + 2y = 4</p>",
     respuestas: {
-      a: "Ninguna es correcta",
-      b: "(b+1) (b+1)",
-      c: "(b+1) (b-1)",
-    },
-    respuestaCorrecta: "c",
-  },
-  {
-    pregunta: "14. 27x<sup>3</sup>+8",
-    respuestas: {
-      a: "(3x+2) (9x<sup>2</sup>+6X+4)",
-      b: "(3x-2) (9x<sup>2</sup>+6X+4)",
-      c: "(3x+2) (9x<sup>2</sup>+6X-4)",
+      a: "<p>x = 2</p><p>y = -1</p>",
+      b: "<p>x = 1/2</p><p>y = -1/2</p>",
+      c: "<p>x = -2</p><p>y = -1</p>",
     },
     respuestaCorrecta: "a",
   },
   {
-    pregunta: "15. m<sup>6</sup>-216",
+    pregunta: "9. Resuelve por sustitución:<p>2x + 2y = 1</p><p>-3x + 3y = 5</p>",
     respuestas: {
-      a: "(m<sup>2</sup>-6) (m<sup>4</sup>+6m<sup>2</sup>+36)",
-      b: "(m<sup>2</sup>+6) (m<sup>4</sup>+6m<sup>2</sup>+36)",
-      c: "Ninguna es correcta",
+      a: "<p>x = -12/12</p><p>y = 13/12</p>",
+      b: "<p>x = -7/12</p><p>y = 13/12</p>",
+      c: "<p>x = -7/8</p><p>y = 13/8</p>",
     },
-    respuestaCorrecta: "a",
-  },
-  {
-    pregunta: "16. x<sup>15</sup>+64y<sup>3</sup>",
-    respuestas: {
-      a: "(x<sup>15</sup>+4y) (x<sup>10</sup>+4x<sup>5</sup>y+16y<sup>2</sup>)",
-      b: "Ninguna es correcta",
-      c: "(x<sup>15</sup>+4y) (x<sup>10</sup>-4x<sup>5</sup>y+16y<sup>2</sup>)",
-    },
-    respuestaCorrecta: "c",
-  },
-  {
-    pregunta: "17. x<sup>2</sup>-2x+1",
-    respuestas: {
-      a: "(x-1)<sup>2</sup>",
-      b: "(x-2)<sup>2</sup>",
-      c: "(x+1)<sup>2</sup>",
-    },
-    respuestaCorrecta: "a",
-  },
-  {
-    pregunta: "18. x<sup>2</sup>-6x+9",
-    respuestas: {
-      a: "(x+3)<sup>2</sup>",
-      b: "(x-9)<sup>2</sup>",
-      c: "(x-3)<sup>2</sup>",
-    },
-    respuestaCorrecta: "c",
-  },
-  {
-    pregunta: "19. 27x<sup>3</sup>+8",
-    respuestas: {
-      a: "(3x+2) (9x<sup>2</sup>+6X+4)",
-      b: "(3x-2) (9x<sup>2</sup>+6X+4)",
-      c: "(3x+2) (9x<sup>2</sup>+6X-4)",
-    },
-    respuestaCorrecta: "a",
-  },
-  {
-    pregunta: "20. x<sup>2</sup>+14x+49",
-    respuestas: {
-      a: "(x+7)<sup>2</sup>",
-      b: "(x-7)<sup>2</sup>",
-      c: "Ninguna es correcta",
-    },
-    respuestaCorrecta: "a",
+    respuestaCorrecta: "b",
   },
 ];
 
